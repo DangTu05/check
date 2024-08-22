@@ -1,0 +1,15 @@
+Để yêu cầu người dùng chụp ảnh xác minh trong HTML, bạn có thể sử dụng thẻ <input> với thuộc tính type="file" và thiết lập accept="image/*;capture=camera". Đây là một ví dụ:
+
+html
+
+Copier
+<form>
+  <label for="verification-image">Vui lòng chụp ảnh xác minh:</label>
+  <input type="file" id="verification-image" name="verification-image" accept="image/*;capture=camera" required>
+  <button type="submit">Gửi</button>
+</form>
+Trong ví dụ này:
+
+Thẻ <input> với type="file" cho phép người dùng chọn một tệp hình ảnh từ thiết bị của họ.
+Thuộc tính accept="image/*;capture=camera" yêu cầu người dùng chụp ảnh trực tiếp bằng camera của thiết bị thay vì chọn một tệp hình ảnh đã tồn tại.
+Thuộc tính required đảm bảo rằng người dùng phải chụp ảnh xác minh trước khi có thể gửi biểu mẫu.
