@@ -1,0 +1,615 @@
+.but1 {
+  background-color: #37c6f1;
+  text-align: center;
+  display: inline;
+  transition: 0.1s;
+
+  margin: 0 0 0 70%; /*đẩy cách xa bên trái 70%*/
+}
+.but2 {
+  background-color: #a7e9f0;
+  text-align: center;
+  transition: 0.1s;
+}
+.but3 {
+  background-color: aliceblue;
+  text-align: center;
+  transition: 0.1s;
+}
+.but {
+  font-size: 100%;
+  cursor: pointer;
+  color: black;
+  user-select: none;
+  margin-right: 2px;
+  border-radius: 5px;
+}
+.but1:hover {
+  background-color: rgb(0, 0, 0);
+  color: #37c6f1;
+}
+.but2:hover {
+  background-color: black;
+  color: #a7e9f0;
+}
+.but3:hover {
+  background-color: black;
+  color: aliceblue;
+}
+#im {
+  height: 4.7rem;
+  width: 100px;
+  /* margin-right: 25%; */
+  display: inline;
+  margin: 0;
+  user-select: none;
+}
+
+div {
+  cursor: pointer;
+  color: black;
+  margin-top: -3.2%;
+}
+
+header {
+  background-color: rgb(16, 194, 249);
+  margin-top: 24.6px;
+  width: 100%;
+  min-width: 750px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  user-select: none;
+}
+header a {
+  text-decoration: none;
+  color: rgb(93, 15, 167);
+}
+
+header a:hover {
+  color: red;
+}
+header span {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  list-style-type: none;
+  cursor: pointer;
+  gap: 10px;
+}
+header li {
+  display: inline-block;
+  padding: 20px;
+  margin-left: 5%;
+}
+.a1 {
+  position: relative;
+}
+.a1::after {
+  background-color: tomato;
+  width: 0;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.a1:hover::after {
+  width: 24px;
+  transform: translateX(73px);
+}
+.a2 {
+  position: relative;
+}
+.a2::after {
+  background-color: tomato;
+  width: 0;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.a2:hover::after {
+  width: 24px;
+  transform: translateX(53px);
+}
+.a3 {
+  position: relative;
+}
+.a3::after {
+  background-color: tomato;
+  width: 0;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.a3:hover::after {
+  width: 24px;
+  transform: translateX(40px);
+}
+.a4 {
+  position: relative;
+}
+.a4::after {
+  background-color: tomato;
+  width: 0;
+  height: 5px;
+  content: "";
+  position: absolute;
+  transition: all 0.5s ease-in-out;
+}
+.a4:hover::after {
+  width: 14px;
+  transform: translateX(15px);
+}
+.a2hot {
+  position: relative;
+}
+.hot {
+  position: absolute;
+  top: -11px;
+  height: 18px;
+  left: 40px;
+}
+.a3hot {
+  position: relative;
+}
+/*phần game========================================*/
+.choise {
+  text-decoration: none;
+  background-color: #2debe7;
+  flex-direction: column;
+  display: flex;
+  margin: 50% 1% 0 19%;
+  width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  font-size: 20px;
+  border: 1.5px solid red;
+  user-select: none;
+}
+.im1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 200px;
+  width: 200px;
+}
+.p1 {
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  opacity: 0;
+  font-weight: bold;
+  background-color: aliceblue;
+  border-radius: 20px;
+  padding: 1px;
+}
+.choise:hover .p1 {
+  opacity: 1;
+  color: rgb(248, 12, 12);
+  bottom: 35%;
+  transition: all 0.4s ease-in-out;
+}
+.choise:hover .im1 {
+  transform: scale(1.005);
+  filter:brightness(40%);
+  transition: all 0.4s ease;
+}
+#div1 {
+  display: flex;
+  margin-top: 4%;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+.option {
+  margin-right: 10%;
+
+}
+
+#video {
+  margin-left: 10%;
+  margin-top: 2%;
+  height: 90%;
+  width: 50%;
+  margin-bottom: 1%;
+}
+#imvd {
+  margin-top: -1.5%;
+  display: flex;
+  background-color: #f8f7f7;
+  user-select: none;
+}
+#maria {
+  height: 370px;
+  width: 410px;
+  margin-top: 2%;
+  margin-left: 10%;
+}
+.poster {
+  height: 300px;
+  width: 100%;
+  margin-top: -16px;
+  margin-left: 0;
+  user-select: none;
+}
+#divpr {
+  background: url(/html/img/back.jpg);
+  height: 618px;
+  width: 100%;
+  margin-top: -4%;
+}
+.h2 {
+  background-color: #a7e9f0;
+  text-align: center;
+  margin-top: -4px;
+  text-shadow: 0 1px;
+  color: red;
+  user-select: none;
+}
+/* @keyframes h2 {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Áp dụng animation cho phần tử */
+/* .h2 {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: h2 10s linear infinite;
+}  */
+
+#app {
+  height: 500px;
+  width: 600px;
+  margin-left: 870px;
+}
+#dlapp {
+  display: flex;
+  margin-top: 5%;
+  margin-left: -10%;
+  user-select: none;
+  position: relative;
+}
+#appstore {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 40%;
+  display: flex;
+}
+.app {
+  width: 78px;
+  height: 86px;
+}
+#app1 {
+  position: absolute;
+  text-decoration: none;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  margin-left: -25%;
+  margin-top: 47%;
+  font-weight: bold;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+#app1:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#appst {
+  margin-top: 68%;
+  margin-left: -50%;
+}
+#appch {
+  margin-top: 68%;
+  margin-left: -50%;
+}
+#CHPLAY {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 20%;
+  display: flex;
+}
+#app2 {
+  position: absolute;
+  text-decoration: none;
+  background-color: deepskyblue;
+  border-radius: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  color: white;
+  display: flex;
+  margin-left: -25%;
+  margin-top: 47%;
+  font-weight: bold;
+  border: 1px solid white;
+  opacity: 0.7;
+}
+
+#app2:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#taiapp {
+  position: absolute;
+  margin-top: 5%;
+  left: 11%;
+  font-size: 2.7rem;
+  color: rgb(2, 169, 220);
+}
+
+#ND {
+  margin-top: 10%;
+  position: absolute;
+  font-size: 1.2rem;
+  left: 11%;
+}
+#lastp {
+  display: -webkit-box;
+  -webkit-line-clamp: var(--line-clamp, 3);
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  word-break: break-all;
+  margin-right: 44%;
+}
+#taiapppr {
+  position: relative;
+  margin-top: 10%;
+}
+/* .lastpr{
+  margin-top: 10%;
+} */
+/*===============Phần đuôi===========================*/
+.last {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+footer #a::after {
+  content: "CƯỢC GIẢI TRÍ,KIẾM TIỀN TỈ";
+  font-size: 1.5rem;
+  font-style: italic;
+  color: rgb(2, 169, 220);
+  position: absolute;
+  left: 20%;
+  top: 8%;
+}
+.section {
+  background: url(/html/img/back.jpg);
+  height: 550px;
+  margin-top: 10%;
+}
+.section #lastim {
+  mix-blend-mode: multiply;
+  margin-top: -1%;
+}
+.lastpr {
+  display: flex;
+}
+.donors {
+  display: flex;
+  position: relative;
+  /* margin-top: 15%; */
+  top: 20%;
+}
+.band {
+  display: flex;
+  margin-top: 12%;
+  position: relative;
+}
+.band1 {
+  position: absolute;
+  left: -70%;
+  top: -16.8%;
+  color: rgb(2, 169, 220);
+}
+.band2 {
+  position: absolute;
+  top: 25%;
+  left: -70%;
+  color: rgb(2, 169, 220);
+}
+
+.band1 img {
+  position: absolute;
+  left: 230%;
+  top: 15%;
+  user-select: none;
+}
+.band figure img {
+  height: 70px;
+  user-select: none;
+}
+.donors figure {
+  margin-top: 10%;
+}
+
+#figure::after {
+  content: "";
+  height: 60px;
+  width: 0.5px;
+  background-color: rgb(2, 169, 220);
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+/*mobile and tablet:width<1024px*/
+@media only screen and (max-width: 63.9375em) {
+  .but {
+    font-size: 10px;
+    white-space: nowrap;
+  }
+  .but1 {
+    width: 70px;
+    position: absolute;
+    left: -21.9%;
+    top: 11.1%;
+  }
+  header ul {
+    width: 60%;
+    margin-left: -5%;
+  }
+
+  header {
+    position: static;
+    max-width: 50px;
+
+    align-items: center;
+  }
+  body {
+    overflow-x: hidden;
+    height: 100%;
+  }
+}
+.section-child {
+  position: relative;
+  margin-top: 10%;
+  margin-left: 11.6%;
+  display: flex;
+  gap: 35px;
+  white-space: nowrap;
+}
+.section-child .i1 {
+  background-image: url(/html/img/bmm.png);
+  height: 70px;
+  width: 100px;
+  /* position: absolute; */
+  background-repeat: no-repeat;
+}
+.section-child .i1:hover {
+  background-image: url(/html/img/bmm.2.png);
+}
+.section-child .i2 {
+  background-image: url(/html/img/bảo\ mật.png);
+  height: 70px;
+  width: 40px;
+  background-repeat: no-repeat;
+}
+.section-child .i2:hover {
+  background-image: url(/html/img/baomat.2.png);
+}
+
+.section-child .i3 {
+  background-image: url(/html/img/be\ gamble.png);
+  height: 70px;
+  width: 80px;
+  background-repeat: no-repeat;
+}
+.section-child .i3:hover {
+  background-image: url(/html/img/begamble.png);
+}
+.section-child .i4 {
+  background-image: url(/html/img/im1.png);
+  height: 70px;
+  width: 70px;
+  background-repeat: no-repeat;
+}
+.section-child .i4:hover {
+  background-image: url(/html/img/im2.2.png);
+}
+.section-child .i5 {
+  background-image: url(/html/img/golbal.png);
+  height: 70px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.section-child .i5:hover {
+  background-image: url(/html/img/global.2.png);
+}
+.section-child .i6 {
+  background-image: url(/html/img/itech.png);
+  height: 70px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.section-child .i6:hover {
+  background-image: url(/html/img/itech2.png);
+}
+.section-child .i7 {
+  background-image: url(/html/img/nutnguon.png);
+  height: 70px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.section-child .i7:hover {
+  background-image: url(/html/img/nutnguon2.png);
+}
+.section-child .i8 {
+  background-image: url(/html/img/18+.png);
+  height: 70px;
+  width: 50px;
+  background-repeat: no-repeat;
+}
+.section-child .i8:hover {
+  background-image: url(/html/img/18+2.png);
+}
+.divlast {
+  display: flex;
+}
+.fa-facebook {
+  color: #02a9dc;
+  font-size: 45px;
+}
+.fa-telegram {
+  color: #02a9dc;
+  font-size: 45px;
+}
+.fa-youtube {
+  color: #02a9dc;
+  font-size: 45px;
+}
+.fa-youtube:hover {
+  color: red;
+}
+.fa-facebook:hover {
+  color: blue;
+}
+.fa-telegram:hover {
+  color: #039dcc;
+}
+#div-end {
+  display: flex;
+  justify-content: space-evenly;
+}
+#div-end a {
+  text-decoration: none;
+  position: relative;
+  color: #039dcc;
+}
+#div-end .a-end::before {
+  content: "";
+  width: 0.2px;
+  height: 17px;
+  left: -5%;
+  background-color: #02a9dc;
+  position: absolute;
+}
+#div-end1 {
+  margin-top: 1.9%;
+  max-width: 100%;
+  padding: 3px;
+  text-align: center;
+  background-color: rgb(207, 242, 255);
+  overflow: hidden;
+  color: #02a9dc;
+}
+#a #lastim{
+  user-select: none;
+}
+/* [data-aos] {
+  visibility: hidden;
+}
+[data-aos].animate__animated {
+  visibility: visible;
+} */

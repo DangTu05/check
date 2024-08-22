@@ -1,0 +1,82 @@
+/* text-decoration: none;--xóa dấu gạch chân */
+/* font-weight:bold;--in đậm chữ  */
+/* transform:scale(1.1)--phóng to lên 10% */
+/* transition:all 0.3s ease-in-out;--làm chậm quá trình thay đổi 0.3s */
+/* transform:translateX()--tịnh tiến theo trụ X */
+/* data-tooltip:Chú thích cho thẻ click vào  */
+/* text-shadow:bóng đổ */
+/* inline-block sử dụng thuộc tính padding :2 bên sẽ roongj ra theo nội dung bên trong box */
+/* position:sticky--Tạo hiệu ứng bám dính,khi nội dung trong thẻ cha gần nhất có thanh cuộn  */
+/* user-select: none;--giúp không bôi đen được */
+/* .class1, .class2 Các thuộc tính áp dụng cho cả 2 class  */
+/* .class1.class2 Các thuộc tính chỉ áp dụng khi phần tử có cả 2 class  */
+/* .class1 + .class2 Các thuộc tính chỉ áp dụng khi .class2 kề sau .class1 */
+/* .class1 ~ .class2 Các thuộc tính chỉ áp dụng khi .class2 cùng cấp với .class1  */
+/* grid-row-gap:Quy định khoảng hở giữa các dòng
+grid-column-gap:quy định khoảng hở giữa các cột */
+/* grid-template-rows:100px repeat(2, 50px)= 100px 50px 50px */
+/* grid-template-rows:1fr 2fr :chiếm 1/3 chiếm 2/3 */
+/* grid-template-rows:100px auto;dòng thứ nhất chiếm 100px dòng t2 chiếm 100% còn lại  */
+/* minmax(20px,100px):min 20px max 100px */
+/* grid-row-start: ví trí bắt đầu
+grid-row-end:vị trí kết thúc  */
+/* grid-row: 1 / 3;--start 1 end 3 */
+/* grid-area: 1 / 2 / 3 /4;--row-start:1,column-start:2,row-end:3,column-end:4 */
+/* span 2 mở rộng ra 2 ô tính từ vị trí hiện tại */
+/* object-fit là một thuộc tính CSS được sử dụng để chỉ định cách thức một phần tử <img> hoặc <video> phải được phóng to, co lại hoặc cắt để phù hợp với kích thước của nó. Đây là một trong những cách hiệu quả để điều chỉnh kích thước và tỷ lệ của các phần tử đa phương tiện trên web.
+
+Một số giá trị thường được sử dụng cho object-fit bao gồm:
+
+cover: Giữ tỷ lệ hình ảnh/video và điền đầy kích thước của phần tử, cắt bớt những phần không phù hợp.
+contain: Giữ tỷ lệ hình ảnh/video và điền vừa kích thước của phần tử, có thể để lại khoảng trống xung quanh.
+fill: Kéo căng hình ảnh/video để lấp đầy kích thước của phần tử, bỏ qua tỷ lệ.
+none: Hiển thị hình ảnh/video ở kích thước gốc, không thay đổi tỷ lệ.
+scale-down: Giảm kích thước hình ảnh/video nếu cần thiết để vừa với kích thước của phần tử, nhưng không phóng to. */
+/* background:transparent--nền trong suốt */
+/* object-fit:cover;giúp ảnh không bị méo */
+/* flex:1;các cột có trọng số bằng nhau */
+/* text-overflow: quy định số dòng tách ngắt thành dấu 3 chấm */
+/* word-break:break-all;Không bị phá vỡ giao diện nếu link quá dài */
+/* flex-shrink:Độ co của items */
+/* mix-blend-mode: multiply;làm cho ảnh với back đồng màu */
+/* display:none;ẩn */
+/* gird-auto-flow:row hoặc column;chỉ định hướng của gird */
+/* transition cho phép kiểm soát thời gian từ trạng thái này sasg trạng thái khác */
+/* transition-property:background-color or color or width...;được chọn thuộc tính  */
+/* transition-delay:3s;làm trễ thời gian chuyển đổi 3s */
+/* filter:drop-shadow(0 0 20 black);Bóng đổ sung quanh phần tử */
+/* box-shadow:inset dùng đổ bóng từ bên trong phần tử */
+/* Outline là một thuộc tính CSS được sử dụng để tạo ra một đường viền xung quanh một phần tử, giống như border nhưng với một số khác biệt:
+/*order: n(n :số nguyên dương);Thay đổi thứ tự phần tử
+Vị trí: Outline không nằm bên trong phần tử như border, nó nằm bên ngoài. Điều này có nghĩa là outline sẽ không ảnh hưởng đến kích thước hay vị trí của phần tử.
+Hình dạng: Outline thường có hình dạng hình vuông, không bị bo góc như border.
+Hiệu ứng focus: Outline thường được sử dụng để tạo ra một đường viền khi phần tử được focus, giúp người dùng dễ dàng nhận biết phần tử đang được focus. */
+/* placeholder dùng vd trong thẻ form */
+/* Trong CSS, text-direction:inherit là một giá trị cho thuộc tính direction và unicode-bidi. Nó có nghĩa là phương hướng văn bản (từ trái sang phải, hoặc từ phải sang trái) sẽ được kế thừa từ phần tử cha mẹ. */
+
+/* Ví dụ, nếu một phần tử có direction: rtl; (từ phải sang trái), và bạn muốn một phần tử con có cùng hướng văn bản, bạn có thể sử dụng direction: inherit; trên phần tử con. */
+
+/* Việc sử dụng text-direction:inherit giúp đảm bảo rằng các phần tử con sẽ có cùng hướng văn bản với phần tử cha, thay vì phải xác định lại hướng này ở mỗi phần tử con. */
+/* Thuộc tính text-decoration được sử dụng để định nghĩa các hiệu ứng trang trí cho văn bản, chẳng hạn như gạch chân, gạch ngang, gạch đứt, v.v. */
+/* mix-blend-mode: multiply;làm màu ảnh đồng màu với màu back */
+/* Thẻ <span> là một phần tử (element) HTML dùng để nhóm và định dạng các nội dung inline (nội dung trong dòng).
+Một số đặc điểm chính của thẻ <span>:
+Định dạng nội dung inline: Thẻ <span> không tạo ra một khối mới như các thẻ <div>, mà chỉ nhóm các nội dung inline như chữ, ký tự, hình ảnh nhỏ, v.v.
+Không có ý nghĩa ngữ nghĩa mặc định: Khác với các thẻ có ý nghĩa ngữ nghĩa rõ ràng như <header>, <nav>, <article>, thẻ <span> không mang ý nghĩa ngữ nghĩa nào cả. Nó chỉ dùng để nhóm nội dung. */
+/* Thẻ SVG (Scalable Vector Graphics) là một thẻ HTML được sử dụng để nhúng và hiển thị các đồ họa vector vào trang web. Một số đặc điểm chính của thẻ SVG bao gồm:
+
+Scalability: Ảnh SVG được render dựa trên vector, nghĩa là chúng có thể được phóng to/thu nhỏ mà không bị vỡ hình ảnh hoặc mất chất lượng.
+Interactivity: Các đối tượng SVG có thể được tương tác và hiệu ứng bằng CSS và JavaScript.
+Lightweight: SVG thường có kích thước file nhỏ hơn so với các định dạng ảnh raster như JPG, PNG.
+Mã hóa: Nội dung SVG được mã hóa bằng XML, có thể dễ dàng chỉnh sửa và thao tác */
+/* Flex basic: Là thuộc tính xác định kích thước ban đầu của một flex item trước khi nó được sắp xếp trong flex container. Cụ thể:
+flex-basis: auto;: Kích thước flex item sẽ được xác định bởi width/height của phần tử.
+flex-basis: <length>;: Kích thước flex item được xác định bởi một giá trị cụ thể (px, %, ...).
+flex-basis: content;: Kích thước flex item được xác định bởi nội dung bên trong phần tử. */
+/* Thuộc tính object-fit trong CSS có vai trò rất quan trọng trong việc điều chỉnh cách thức hiển thị của các đối tượng như ảnh, video trong một phần tử.
+
+Trong trường hợp sử dụng object-fit: cover;, thuộc tính này có các tác dụng sau:
+
+Điều chỉnh kích thước: Ảnh/Video sẽ được căn chỉnh để lấp đầy kích thước của phần tử chứa nó, trong khi vẫn giữ nguyên tỷ lệ khung hình (aspect ratio).
+Cắt bớt nội dung: Nếu tỷ lệ khung hình của ảnh/video không khớp với tỷ lệ của phần tử chứa, object-fit: cover; sẽ cắt bớt một phần nội dung để vừa khít với kích thước phần tử.
+Căn chỉnh nội dung: Thuộc tính này sẽ căn chỉnh nội dung ảnh/video vào giữa của phần tử chứa, tự động cắt bớt các phần bên lề. */

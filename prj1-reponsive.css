@@ -1,0 +1,546 @@
+/**==========================================PC======================================*/
+@media (min-width: 992px) and (max-width: 1250px) {
+  body .divpr3 .div3-2-1-1,
+  body .divpr3 .div3-2-2-1,
+  body .divpr3 .div3-2-3-1,
+  body .divpr3 .div3-2-4-1,
+  body .divpr3 .div3-2-5-1,
+  body .divpr3 .div3-3-1-1,
+  body .divpr3 .div3-3-2-1,
+  body .divpr3 .div3-3-3-1,
+  body .divpr3 .div3-3-4-1,
+  body .divpr3 .div3-3-5-1 {
+    width: 150px;
+    height: 120px;
+  }
+}
+/**==========================================tablet & mobile=============================================*/
+@media (max-width: 991.98px) {
+  .header .header__div {
+    position: absolute;
+  }
+  .header {
+    position: sticky;
+    top: 0;
+  }
+
+  /* body .divpr2 .div2-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-left: 1px solid rgb(215, 215, 215);
+    margin-top: 1px;
+  } */
+  .div-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .divpr2 .div2-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .divpr2 .div2-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  body .header .header__div {
+    position: static;
+  }
+  body .divpr3 .div3-2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto 10px;
+  }
+
+  body .divpr3 .div3-3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto 10px auto 0;
+  }
+}
+/**=====================================tablet==========================================*/
+@media (min-width: 596px) and (max-width: 991.98px) {
+  /* *=======================Phần Flash Sale=========================== */
+  .div-container2 {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    margin-top: 10px;
+    justify-content: center;
+    column-gap: 100px;
+  }
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.87rem;
+  }
+
+  /* *=============================Phần nav================================== */
+  header .a2 span {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  header .a {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  header .p {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  header .div2 .form1 select {
+    font-size: 0.75rem;
+  }
+  header .div3 .dn,
+  header .div3 .dk {
+    font-size: 0.75rem;
+    white-space: nowrap;
+  }
+  header .div1 .div-brand {
+    white-space: nowrap;
+    font-size: 0.75rem;
+  }
+}
+@media (min-width: 596px) and (max-width: 705.98px) {
+  /* *====================Chỉnh phần gợi ý hôm nay=========================== */
+  body .divpr4 .div4-2same2 {
+    font-size: 0.63rem;
+    white-space: nowrap;
+  }
+  body .divpr4 .div4-2same1 {
+    font-size: 0.63rem;
+    white-space: nowrap;
+  }
+  /* *Chỉnh kích cỡ logo */
+  header #logo {
+    height: 45px;
+    width: 65px;
+  }
+}
+@media (min-width: 706px) and (max-width: 780px) {
+  /* *====================Chỉnh phần gợi ý hôm nay=========================== */
+  body .divpr4 .div4-2same2 {
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+  body .divpr4 .div4-2same1 {
+    font-size: 0.8rem;
+    white-space: nowrap;
+  }
+}
+/**===================================mobile====================================*/
+@media (max-width: 595.98px) {
+  /* *Chỉnh núp thêm vào giỏ hàng */
+  .fa-cart-plus {
+    right: calc(100% - 97%);
+  }
+  .div-container2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+  }
+  /* *Chỉnh kích chỡ logo */
+  header #logo {
+    height: 40px;
+    width: 60px;
+  }
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.7rem;
+  }
+  /* *Chỉnh kí hiệu giỏ hàng */
+  .div-shop {
+    right: 0.7%;
+  }
+
+  /* *=====================Chỉnh giới thiệu================================ */
+  footer .section .p {
+    font-size: 0.7rem;
+    margin-right: 90px;
+  }
+  body .divpr4 .same {
+    margin-top: 3%;
+    border: 1px solid rgb(215, 215, 215);
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    width: 30%;
+  }
+
+  body .divpr1 .div1-1-2 {
+    font-size: 0.75rem;
+  }
+  /* *========================Ẩn phần có thể bạn tìm kiếm====================== */
+  footer .section .same {
+    display: none;
+  }
+  header .navpr {
+    display: none;
+  }
+  body .header .header__div {
+    padding-top: 30px;
+  }
+  /** ================================Làm menu====================== */
+  .menu svg {
+    width: 24px;
+    color: rgb(62, 60, 60);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  }
+  .menu-overlay {
+    display: inherit;
+  }
+  .menu-checkbox:checked ~ .menu-overlay {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  body .mobile-header .menu-drawer {
+    display: inherit;
+  }
+  .menu-checkbox:checked ~ .menu-drawer {
+    transform: translateX(0);
+  }
+  /** ===================chỉnh sửa bên trong menu====================== */
+  #mobile-nav .a2,
+  .a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+  }
+  /* *=================================Ẩn liên hệ cuối trang=============================== */
+  body footer .div7-4 {
+    display: none;
+  }
+  body footer .divpr7 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  #mobile-nav .div-brand {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 30px 0 0 0;
+  }
+  #mobile-nav .p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  #mobile-nav .a2 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #mobile-nav .fa-facebook {
+    color: blue;
+    font-size: 30px;
+  }
+  #mobile-nav .fa-instagram {
+    color: brown;
+    font-size: 30px;
+  }
+  #mobile-nav .fa-youtube {
+    color: red;
+    font-size: 30px;
+  }
+  #mobile-nav .div3 .dn {
+    text-decoration: none;
+    color: red;
+    border: none;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  #mobile-nav .div3 .dk {
+    text-decoration: none;
+    color: red;
+    appearance: none;
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  #mobile-nav select {
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    margin-top: 30px;
+    mix-blend-mode: multiply;
+    display: block;
+  }
+  #mobile-nav {
+    margin-top: 50px;
+  }
+
+  #moblie-nav .div3 {
+    display: block;
+  }
+  #mobile-nav .a2 span {
+    font-size: 1.2rem;
+    margin-top: 30px;
+  }
+  #mobile-nav .div3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  body .divpr1 .div1-1-2 {
+    font-size: 0.6rem;
+    color: rgb(0, 0, 0);
+  }
+
+  body .divpr2 .div2-3-2-1 {
+    font-size: 0.7rem;
+  }
+  body .divpr2 .div2-2-1-2 {
+    font-size: 0.7rem;
+  }
+  body .divpr3 .div3-2-1-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-2-2-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-3-1-1 {
+    width: 100px;
+    height: 100px;
+  }
+
+  body .divpr3 .div3-2-3-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-2-4-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-2-5-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-3-2-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-3-3-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-3-4-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 .div3-3-5-1 {
+    width: 100px;
+    height: 100px;
+  }
+  body .divpr3 a {
+    display: inline-block;
+    margin-left: 15px;
+  }
+  body .divpr3 .div3-3-5-1-1 {
+    bottom: auto;
+    left: 39%;
+  }
+  body .divpr4 .same {
+    margin-top: 3%;
+    border: 1px solid rgb(215, 215, 215);
+    display: inline-block;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out;
+    width: auto;
+  }
+  body .divpr4 .div4-4,
+  body .divpr4 .div4-7,
+  body .divpr4 .div4-10 {
+    display: none;
+  }
+}
+@media (min-width: 455px) and (max-width: 595.98px) {
+  body .divpr4 .div4same1 {
+    white-space: nowrap;
+    font-size: 0.6rem;
+  }
+  body .divpr4 .div4-2same2 {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+  body .divpr4 .div4-2same1 {
+    font-size: 0.6rem;
+    white-space: nowrap;
+  }
+  /* *Chỉnh thanh tìm kiếm  */
+  header .form2 {
+    width: 85%;
+  }
+  /* *Chỉnh giỏ hàng  */
+  .div-shop{
+    right: 3.4%;
+  }
+
+  /* *===========================Chỉnh phần footer cuối=================================== */
+  footer .div9-1 {
+    font-size: 0.68rem;
+  }
+}
+@media (max-width: 454.98px) {
+  body .divpr4 .div4same1 {
+    white-space: nowrap;
+    font-size: 0.53rem;
+  }
+  body .divpr4 .div4-2same2 {
+    font-size: 0.53rem;
+    white-space: nowrap;
+  }
+  body .divpr4 .div4-2same1 {
+    font-size: 0.53rem;
+    white-space: nowrap;
+  }
+  /* *===========================Chỉnh phần footer cuối=================================== */
+  footer .div9-1 {
+    font-size: 0.45rem;
+  }
+  footer .divpr9 .div9-2 {
+    font-size: 0.75rem;
+  }
+  footer .divpr9 .div9-3 {
+    font-size: 0.75rem;
+  }
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.5rem;
+  }
+  footer .divpr8 .div8-1-2 img {
+    height: 10px;
+  }
+    /* *Chỉnh thanh tìm kiếm  */
+    header .form2 {
+      width: 82%;
+    }
+    /* *Chỉnh giỏ hàng  */
+    .div-shop{
+      right: 3.9%;
+    }
+}
+/* *=====================Chỉnh có thể bạn tìm kiếm =============================== */
+@media (min-width: 992px) and (max-width: 1003.98px) {
+  body .same .a {
+    font-size: 0.78rem;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 849px) and (max-width: 991.98px) {
+  body .same .a {
+    font-size: 0.67rem;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 785px) and (max-width: 848.98px) {
+  body .same .a {
+    font-size: 0.61rem;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 665px) and (max-width: 784.98px) {
+  body .same .a {
+    font-size: 0.48rem;
+    white-space: nowrap;
+  }
+}
+@media (min-width: 596px) and (max-width: 664.98px) {
+  body .same .a {
+    font-size: 0.4rem;
+    white-space: nowrap;
+  }
+  /* *Chỉnh khưng tìn kiếm  */
+  header .form2 {
+    width: 87%;
+  }
+}
+@media (min-width: 732px) and (max-width: 830.98px) {
+  /* *======================chỉnh size Giới thiệu footer============================== */
+  body footer .alike {
+    font-size: 0.72rem;
+  }
+  body .divpr7 span {
+    font-size: 0.68rem;
+  }
+  body footer .div7-4 ul {
+    font-size: 0.68rem;
+  }
+}
+@media (min-width: 596px) and (max-width: 731.98px) {
+  /* *======================chỉnh size Giới thiệu footer============================== */
+  body .divpr7 .div7-3 img {
+    height: 20px;
+  }
+  body footer .alike {
+    font-size: 0.67rem;
+  }
+  body footer .div7-4 ul {
+    font-size: 0.6rem;
+  }
+  body .divpr7 span {
+    font-size: 0.6rem;
+  }
+  /* *Chỉnh giỏ hàng */
+  .div-shop {
+    right: 3%;
+  }
+}
+/* *===============chỉnh phần cuối của footer================================================= */
+@media (min-width: 596px) and (max-width: 719.98px) {
+  footer .div9-1 {
+    font-size: 0.8rem;
+  }
+  /* *=========Chỉnh slide */
+  body .divprr .im1 {
+    width: 270px;
+  }
+  body .divprr .im5 {
+    width: 100%;
+    height: 179px;
+  }
+  body .divprr .child1 {
+    width: 270px;
+  }
+  #list-img {
+    width: 270px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 720px) and (max-width: 991.98px) {
+  /* *=========Chỉnh slide */
+  body .divprr .im1 {
+    width: 400px;
+  }
+  body .divprr .im5 {
+    width: 100%;
+    height: 179px;
+  }
+  body .divprr .child1 {
+    width: 400px;
+  }
+  #list-img {
+    width: 400px;
+    overflow: hidden;
+  }
+}
+@media (min-width: 490px) and (max-width: 595.98px) {
+  /* *=========Chỉnh slide */
+  body .divprr .im1 {
+    width: 160px;
+  }
+  body .divprr .im5 {
+    width: 100%;
+    height: 179px;
+  }
+  body .divprr .child1 {
+    width: 160px;
+  }
+  #list-img {
+    width: 160px;
+    overflow: hidden;
+  }
+}
+@media (max-width: 489.98px) {
+  body .divprr {
+    display: none;
+  }
+}

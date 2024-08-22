@@ -1,0 +1,211 @@
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+}
+
+/* *Chỉnh logo phần đăng kí */
+.logoreg {
+  background-repeat: no-repeat;
+  background-image: url(/html/img/Logotutabrown.png);
+  background-size: contain;
+  width: 280px;
+  height: 200px;
+  left: 5%;
+  position: absolute;
+}
+.logologin{
+  background-repeat: no-repeat;
+  background-image: url(/html/img/Logotutabrown.png);
+  background-size: contain;
+  position: absolute;
+  width: 260px;
+  height: 180px;
+  left: 5%;
+  top:23%;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  
+}
+
+.form-heading {
+  text-align: center;
+  font-size: 30px;
+  color: brown;
+}
+.form-group {
+  display: flex;
+  flex-flow: column;
+  margin: 5px auto;
+  width: 300px;
+  position: relative;
+  
+}
+#Submit {
+  width: 100%;
+  margin-top: 7px;
+  box-sizing: border-box;
+  background-color: blue;
+  color: aliceblue;
+}
+#Submit:hover {
+  background-color: rgba(0, 0, 255, 0.699);
+}
+.form-label {
+  padding-bottom: 5px;
+}
+input {
+  height: 30px;
+}
+.div-login {
+  margin-top: 15px;
+}
+
+#eyePassword1 {
+  width: 20px;
+  fill: rgba(0, 0, 0, 0.781);
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  cursor: pointer;
+  display: none;
+}
+#eyePassword2 {
+  width: 20px;
+  fill: rgba(0, 0, 0, 0.781);
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  cursor: pointer;
+  display: none;
+}
+.alert-danger {
+  height: 30px;
+  align-items: center;
+  display: none;
+  margin-top: 5px;
+}
+#eyePasswordLogin {
+  width: 20px;
+  fill: rgba(0, 0, 0, 0.781);
+  cursor: pointer;
+  position: absolute;
+  right: 4%;
+  top: 51.2%;
+  display: none;
+}
+body footer .divpr7 {
+  background-color: #f8f8f88d;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+body .divpr7 a {
+  text-decoration: none;
+}
+body .divpr7 span {
+  color: black;
+  font-size: 0.9rem;
+}
+body .divpr7 .div7-3 img {
+  height: 30px;
+  mix-blend-mode: multiply;
+}
+body .divpr7 li {
+  list-style-type: none;
+}
+body footer .div7-3 ul {
+  margin-top: 6%;
+  margin-left: -10%;
+  display: flex;
+  white-space: wrap;
+  gap: 10px;
+}
+body footer .div7-2 ul {
+  margin-left: -19%;
+  margin-top: 6%;
+}
+body footer .div7-4 ul {
+  margin-left: -20%;
+  margin-top: 6%;
+}
+body footer .div7-1 ul {
+  margin-left: -17%;
+  margin-top: 6%;
+}
+body footer .div7-1,
+.div7-2,
+.div7-3,
+.div7-4 {
+  margin-top: 3%;
+}
+footer .div7-4 .li a {
+  color: black;
+}
+footer .div7-4 .fa-brands {
+  color: grey;
+}
+footer .divpr7 span:hover {
+  color: red;
+}
+footer .divpr7 a:hover {
+  color: red;
+}
+footer .divpr8 .div8-1-2 img {
+  height: 20px;
+  width: 20px;
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+footer .div8-1-1,
+.div8-1-2 {
+  margin-top: 2.5%;
+}
+footer .divpr8 .div8-1 {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-evenly;
+  border-top: 1px solid #cccccc54;
+}
+footer .div9-1 a,
+footer .div9-1 span {
+  text-decoration: none;
+  color: black;
+}
+footer .div9-1 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 4%;
+  padding-top: 10px;
+}
+footer .divpr9 .div9-2 {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 1.5%;
+}
+footer .divpr9 .div9-3 {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 0.7%;
+  padding-bottom: 5px;
+}
+footer .divpr9 {
+  background-color: rgba(241, 237, 237, 0.759);
+}
+body footer .p {
+  margin-left: 10%;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  white-space: wrap;
+}
+body footer .h1 {
+  font-size: 1rem;
+  margin-left: 10%;
+  padding-top: 30px;
+}

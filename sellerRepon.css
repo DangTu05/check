@@ -1,0 +1,45 @@
+@media (min-width: 406px) and (max-width: 490px) {
+  span {
+    font-size: 0.93rem;
+  }
+}
+@media (min-width: 406px) and (max-width: 500px) {
+  #name,
+  #email
+  {
+    width: 250px;
+  }
+  #SĐT {
+    width: 200px;
+  }
+}
+@media(min-width:370px) and (max-width:405.98px){
+    #verification-image1,#verification-image2{
+        font-size: 0.9rem;
+    }
+}
+@media(max-width:369.98px){
+    #verification-image1,#verification-image2{
+        font-size: 0.7rem;
+    }
+}
+@media (max-width: 405.98px) {
+  span {
+    font-size: 0.66rem;
+  }
+  #name,
+  #email {
+    width: 190px;
+  }
+  #SĐT {
+    width: 150px;
+  }
+  .submit {
+    justify-content: center;
+  }
+}
+@media(max-width:530px){
+    #IDcccd{
+        width: 90%;
+    }
+}

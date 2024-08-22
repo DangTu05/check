@@ -1,0 +1,162 @@
+@media (min-width: 596px) and (max-width: 719.98px) {
+  footer .div9-1 {
+    font-size: 0.8rem;
+  }
+}
+@media (min-width: 596px) and (max-width: 731.98px) {
+  /* *======================chỉnh size Giới thiệu footer============================== */
+  body .divpr7 .div7-3 img {
+    height: 20px;
+  }
+  body footer .alike {
+    font-size: 0.67rem;
+  }
+  body footer .div7-4 ul {
+    font-size: 0.6rem;
+  }
+  body .divpr7 span {
+    font-size: 0.6rem;
+  }
+}
+@media (min-width: 732px) and (max-width: 830.98px) {
+  /* *======================chỉnh size Giới thiệu footer============================== */
+  body footer .alike {
+    font-size: 0.72rem;
+  }
+  body .divpr7 span {
+    font-size: 0.68rem;
+  }
+  body footer .div7-4 ul {
+    font-size: 0.68rem;
+  }
+}
+@media (max-width: 595.98px) {
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.7rem;
+  }
+  footer .section .p {
+    font-size: 0.7rem;
+    margin-right: 90px;
+  }
+  body footer .div7-4 {
+    display: none;
+  }
+  body footer .divpr7 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+  footer .div9-1 {
+    font-size: 0.68rem;
+  }
+  /* *Chỉnh màu back id wrapper */
+  #wrapper {
+    background-image: initial;
+  }
+}
+@media (max-width: 454.98px) {
+  /* *===========================Chỉnh phần footer cuối=================================== */
+  footer .div9-1 {
+    font-size: 0.45rem;
+  }
+  footer .divpr9 .div9-2 {
+    font-size: 0.75rem;
+  }
+  footer .divpr9 .div9-3 {
+    font-size: 0.75rem;
+  }
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.5rem;
+  }
+  footer .divpr8 .div8-1-2 img {
+    height: 10px;
+  }
+}
+@media (min-width: 596px) and (max-width: 991.98px) {
+  /* *=============================Chỉnh phần quyền và quốc gia,khu vực================================= */
+  footer .divpr8 .div8-1 {
+    font-size: 0.87rem;
+  }
+}
+@media (min-width: 455px) and (max-width: 595.98px) {
+  /* *===========================Chỉnh phần footer cuối=================================== */
+  footer .div9-1 {
+    font-size: 0.68rem;
+  }
+}
+/* *=======================Chỉnh logo ================================ */
+@media (min-width: 818px) and (max-width: 991.98px) {
+  .logoreg {
+    height: 190px;
+    width: 210px;
+  }
+}
+@media (min-width: 717px) and (max-width: 817.98px) {
+  .logoreg {
+    height: 140px;
+    width: 160px;
+  }
+}
+@media (min-width: 620px) and (max-width: 716.98px) {
+  .logoreg {
+    height: 100px;
+    width: 120px;
+  }
+}
+@media (min-width: 541px) and (max-width: 619.98px) {
+  .logoreg {
+    height: 60px;
+    width: 80px;
+  }
+}
+@media (min-width: 440px) and (max-width: 540.98px) {
+  .logoreg {
+    height: 30px;
+    width: 50px;
+  }
+}
+@media (max-width: 439.98px) {
+  .logoreg {
+    display: none;
+  }
+}
+/* *========Chỉnh logo phần login */
+@media (min-width: 830px) and (max-width: 940.98px) {
+  .logologin {
+    height: 150px;
+    width: 200px;
+  }
+}
+@media (min-width: 746px) and (max-width: 829.98px) {
+  .logologin {
+    height: 140px;
+    width: 170px;
+    top: 27%;
+  }
+}
+@media (min-width: 650px) and (max-width: 745.98px) {
+  .logologin {
+    height: 110px;
+    width: 130px;
+    top: 30%;
+  }
+}
+@media (min-width: 500px) and (max-width: 649.98px) {
+  .logologin {
+    height: 50px;
+    width: 60px;
+    top: 40%;
+  }
+}
+@media(min-width:440px) and (max-width:499.98px){
+  .logologin{
+    height: 30px;
+    width: 30px;
+    top:45%;
+}}
+@media (max-width:439.98px){
+  .logologin{
+    display: none;
+}}

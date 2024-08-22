@@ -1,0 +1,171 @@
+#wrapper {
+  display: flex;
+  padding: 15px 15px 15px 15px;
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  align-items: center;
+}
+#name,#email,#IDcccd{
+  width: 400px;
+}
+#SĐT{
+  width: 300px;
+}
+#logo {
+  background-image: url(/html/img/Logotutabrown.png);
+  background-size: contain;
+  width: 40px;
+  height: 26.4px;
+  background-repeat: no-repeat;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#title {
+  font-size: 20px;
+  padding-left: 15px;
+}
+body {
+  background-color: #8664640e;
+}
+.child {
+  width: 1200px;
+  margin-top: 25px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-sizing: border-box;
+}
+img {
+  width: 200px;
+  height: 200px;
+}
+.parent {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  user-select: none;
+}
+h3 {
+  font-size: 25px;
+  padding: 10px;
+}
+button .button {
+  border-radius: 5px;
+  width: 150px;
+  text-align: center;
+  color: brown;
+}
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid #999;
+}
+.active {
+  background-color: red;
+}
+.next {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
+.div-dot {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  align-items: center;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  user-select: none;
+}
+#Info {
+  width: 92%;
+  margin-top: 25px;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.12);
+  text-align: center;
+  padding: 60px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-sizing: border-box;
+}
+#shopInfo {
+  margin-top: 60px;
+  box-sizing: border-box;
+  padding: 30px;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+.inputname {
+  padding-left: 10px;
+}
+#nameError{
+  display: flex;
+  color: red;
+}
+.inputddress {
+  padding-left: 15px;
+}
+.inputemail {
+  padding-left: 20px;
+}
+#emailError{
+  display: flex;
+  color: red;
+}
+.inputsdt{
+    padding-left: 15px;
+}
+#SĐTError{
+  display: flex;
+  color: red;
+}
+.box {
+  padding: 20px;
+  display: flex;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.button3{
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.button4{
+    margin-left: 10px;
+    border-radius: 5px;
+}
+.button5{
+  margin-left: 10px;
+  border-radius: 5px;
+}
+#CCCD{
+  display: none;
+  flex-flow: column;
+  gap: 50px;
+  margin-top: 70px;
+}
+#successful{
+  margin-top: 70px;
+}
+.button6{
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.back1,.back2,.back3{
+  margin-left: 10px;
+  border-radius: 5px;
+}

@@ -1,0 +1,94 @@
+@media (min-width:580px) and  (max-width:740.98px){
+    h5{
+        font-size: 0.9rem;
+    }
+    h2{
+        font-size: 0.9rem;
+    }
+    .div-text {
+        flex: 0 0 170px;
+    }
+    li{
+        font-size: 0.8rem;
+    }
+    .text{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width:741px) and (max-width:1005px){
+    h5{
+        font-size: 0.95rem;
+    }
+    h2{
+        font-size: 0.95rem;
+    }
+    .div-text {
+        flex: 0 0 190px;
+    }
+    li{
+        font-size: 0.85rem;
+    }
+    .text{
+        font-size: 0.95rem;
+    }
+    strong{
+        font-size: 0.9rem;
+    }
+}
+@media (min-width:400px) and (max-width:579.98px){
+    h5{
+        font-size: 0.68rem;
+    }
+    h2{
+        font-size: 0.73rem;
+    }
+    .div-text {
+        flex: 0 0 130px;
+    }
+    li{
+        font-size: 0.72rem;
+    }
+    .text{
+        font-size: 0.73rem;
+    }
+    .item{
+        font-size: 0.75rem;
+        white-space: nowrap;
+    }
+    strong{
+        font-size: 0.75rem;
+    }
+}
+@media(max-width:399.98px){
+    h5{
+        font-size: 0.55rem;
+    }
+    h2{
+        font-size: 0.6rem;
+    }
+    .div-text {
+        flex: 0 0 100px;
+    }
+    li{
+        font-size: 0.4rem;
+    }
+    .text{
+        font-size: 0.63rem;
+    }
+    .item{
+        font-size: 0.7rem;
+        white-space: nowrap;
+    }
+    .option5{
+        display: none;
+    }
+    strong{
+        font-size: 0.5rem;
+    }
+    ul{
+        margin-right: 12px;
+    }
+span{
+    font-size: 0.7rem;
+}
+}
