@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0,user-scalable=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="shortcut icon"
+      href="/html/img/Logotutabrown.png"
+      type="image/x-icon"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.all.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.12.2/dist/sweetalert2.min.css"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="/css/project1.css" />
+    <link rel="stylesheet" href="/css/prj1-reponsive.css" />
+    <title>TUTA</title>
+  </head>
+  <body>
+    <!-- pc header -->
+    <header class="header">
+      <div class="header__div">
+        <nav id="pc-nav" class="navpr">
+          <div class="div1">
+            <a href="/html/sellerPrj1.html" target="_blank" class="a"
+              >Trở thành người bán</a
+            >
+            <p class="p">Kết nối</p>
+            <div class="div-brand">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100040172081393"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a target="_blank" href="http://www.youtube.com/@angtu6133"
+                ><i class="fa-brands fa-youtube"></i
+              ></a>
+              <a
+                target="_blank"
+                href="https://www.instagram.com/nam071205/?hl=vi"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+            </div>
+          </div>
+          <div class="div2">
+            <div class="a2">
+              <span><i class="fa-regular fa-bell"></i> Thông báo</span>
+              <a
+                style="text-decoration: none; color: white"
+                target="_blank"
+                href="/html/support.html"
+              >
+                <span><i class="fa-solid fa-question"></i> Hỗ trợ</span></a
+              >
+            </div>
+            <form class="form1" action="">
+              <select name="" id="translate">
+                <option id="Vi" value="Tiếng Việt" selected>
+                  <span>Tiếng Việt</span>
+                </option>
+                <option id="En" value="Tiếng Anh">
+                  <span>Tiếng Anh</span>
+                </option>
+              </select>
+            </form>
+            <div class="div3">
+              <a class="dn" href="/html/login.html">Đăng Nhập</a>
+              <a class="dk" href="/html/register.html">Đăng Kí</a>
+            </div>
+          </div>
+        </nav>
+        <div style="display: flex">
+          <div class="logoform">
+            <div id="logo"></div>
+          </div>
+          <div class="container divform">
+            <form class="form2" role="search" autocomplete="off" action="">
+              <div class="div4">
+                <input
+                  class="input"
+                  type="text"
+                  placeholder="Free ship-mua ngay!"
+                />
+                <button id="button-search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+              </div>
+            </form>
+            <div class="div-search"></div>
+          </div>
+          <div class="div-shop">
+            <div role="button" class="fa-solid fa-cart-shopping">
+              <div aria-hidden="true" class="quantity"></div>
+            </div>
+            <div class="list-product">
+              <div class="list"></div>
+              <div class="no-products">Không có sản phẩm nào</div>
+              <div
+                style="
+                  padding: 0 6px 6px 0;
+                  display: flex;
+                  justify-content: end;
+                "
+              >
+                <button class="check-cart">
+                  <a
+                    style="text-decoration: none; color: black"
+                    href="/html/cart.html"
+                    >Xem giỏ hàng
+                  </a>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- tablet,mobile header -->
+    <div class="mobile-header">
+      <input
+        type="checkbox"
+        name="menu-checkbox"
+        id="menu-checkbox"
+        class="menu-checkbox"
+        hidden
+      />
+      <label class="menu" for="menu-checkbox">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+          <path
+            fill="currentColor"
+            d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+          />
+        </svg>
+      </label>
+      <label for="menu-checkbox" class="menu-overlay"></label>
+      <div class="menu-drawer">
+        <ul id="mobile-nav"></ul>
+        <script>
+          const pcNav = document.querySelector("#pc-nav");
+          const mobileNav = document.querySelector("#mobile-nav");
+          mobileNav.innerHTML = pcNav.innerHTML;
+        </script>
+      </div>
+    </div>
+    <div id="primary">
+      <div class="divprr">
+        <div class="childprr">
+          <div id="list-img">
+            <div class="child1">
+              <div class="div-fix">
+                <img class="im1" src="/html/img/freeship.png" alt="Free ship" />
+              </div>
+              <div class="div-fix">
+                <img
+                  src="/html/img/chinh-sach-doi-tra.JPG"
+                  alt="ĐỔI TRẢ"
+                  class="im1"
+                />
+              </div>
+              <div class="div-fix">
+                <img
+                  src="/html//img/mua1tang1.jpg"
+                  alt="Mua 1 tặng 1"
+                  class="im1"
+                />
+              </div>
+              <div class="div-fix">
+                <img src="/html/img/ưu đãi.jpg" alt="ƯU ĐÃI" class="im1" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <svg
+              id="svg1"
+              style="
+                background-color: rgba(250, 235, 215, 0.056);
+                opacity: 0.6;
+                width: 40px;
+                height: 30px;
+              "
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"
+              />
+            </svg>
+          </div>
+          <div>
+            <svg
+              id="svg2"
+              style="
+                background-color: rgba(250, 235, 215, 0.056);
+                opacity: 0.6;
+                width: 40px;
+                height: 30px;
+              "
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 320 512"
+            >
+              <path
+                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"
+              />
+            </svg>
+          </div>
+          <div class="divdot">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+          </div>
+        </div>
+        <div class="childprr2">
+          <img class="im5" src="/html/img/postertb.JPG" alt="Thông Báo" />
+        </div>
+      </div>
+      <div class="divpr1">
+        <a href="">
+          <div class="div1-1">
+            <div class="div1-1-1"></div>
+            <div class="div1-1-2">Voucher hot</div>
+          </div>
+        </a>
+        <a href="">
+          <div class="div1-2">
+            <div class="div1-2-1"></div>
+            <div class="div1-1-2">Free ship</div>
+          </div>
+        </a>
+        <a href=""
+          ><div class="div1-3">
+            <div class="div1-3-1"></div>
+            <div class="div1-1-2">Mã giảm giá</div>
+          </div></a
+        >
+        <a href=""
+          ><div class="div1-4">
+            <div class="div1-4-1"></div>
+            <div class="div1-1-2">Hàng Quốc Tế</div>
+          </div></a
+        >
+        <a href=""
+          ><div class="div1-5">
+            <div class="div1-5-1"></div>
+            <div class="div1-1-2">Nạp thẻ</div>
+          </div></a
+        >
+      </div>
+    </div>
+    <div class="divpr2">
+      <div role="main" class="container div2-1">Danh Mục</div>
+      <div class="div-container">
+        <div class="div2-2">
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-1"></div>
+              <div class="div2-2-1-2">Mẹ và Bé</div>
+            </a>
+          </div>
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-3"></div>
+              <div class="div2-2-1-2">Điện Thoại</div>
+            </a>
+          </div>
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-4"></div>
+              <div class="div2-2-1-2">Đời Sống</div>
+            </a>
+          </div>
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-5"></div>
+              <div class="div2-2-1-2">Đồ Ăn</div>
+            </a>
+          </div>
+          <div class="div2-2-1">
+            <a href=""
+              ><div class="div2-2-1-6"></div>
+              <div class="div2-2-1-2">Giày Nam</div></a
+            >
+          </div>
+          <div class="div2-2-1">
+            <a href=""
+              ><div class="div2-2-1-7"></div>
+              <div class="div2-2-1-2">Giày Nữ</div></a
+            >
+          </div>
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-8"></div>
+              <div class="div2-2-1-2">Máy Ảnh</div>
+            </a>
+          </div>
+          <div class="div2-2-1">
+            <a href=""
+              ><div class="div2-2-1-9"></div>
+              <div class="div2-2-1-2">Nhà Sách</div></a
+            >
+          </div>
+          <div class="div2-2-1">
+            <a href=""
+              ><div class="div2-2-1-10"></div>
+              <div class="div2-2-1-2">Laptop</div></a
+            >
+          </div>
+          <div class="div2-2-1">
+            <a href="">
+              <div class="div2-2-1-11"></div>
+              <div class="div2-2-1-2">Mỹ Phẩm</div>
+            </a>
+          </div>
+        </div>
+        <div class="div2-3">
+          <div class="div2-3-1">
+            <a href=""
+              ><div class="div2-3-1-1"></div>
+              <div class="div2-3-2-1">Xe Máy</div></a
+            >
+          </div>
+          <div class="div2-3-1">
+            <a href=""
+              ><div class="div2-3-1-2"></div>
+              <div class="div2-3-2-1">Đồng Hồ</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-3"></div>
+              <div class="div2-3-2-1">Túi Nữ</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-4"></div>
+              <div class="div2-3-2-1">Trang Sức</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-5"></div>
+              <div class="div2-3-2-1">Đồ Nữ</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-6"></div>
+              <div class="div2-3-2-1">Đồ Nam</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-7"></div>
+              <div class="div2-3-2-1">Đồ Điện Tử</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-8"></div>
+              <div class="div2-3-2-1">Thể Thao</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-9"></div>
+              <div class="div2-3-2-1">Đồ Da Dụng</div>
+            </a>
+          </div>
+          <div class="div2-3-1">
+            <a href="">
+              <div class="div2-3-1-10"></div>
+              <div class="div2-3-2-1">Sức Khỏe</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divpr3">
+      <div class="div3-1">
+        <div class="div3-1-1"></div>
+      </div>
+      <div class="div-container2">
+        <div class="div3-2">
+          <div class="div3-2-1 similar" data="/html/img/kinhmat1.jpg">
+            <div class="id" data="1">
+              <div class="div3-2-1-1">
+                <div class="div3same"></div>
+                <div class="fa-solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-2same">
+                <span class="span">₫</span>
+                <strong class="strong">119000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-2-2 similar" data="/html/img/tainghe.jpg">
+            <div class="id" data="2">
+              <div class="div3-2-2-1">
+                <div class="div3same"></div>
+                <div class="fa-solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-2same">
+                <span class="span">₫</span>
+                <strong class="strong">130000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-2-3 similar" data="/html/img/quanao3.jpg">
+            <div class="id" data="3">
+              <div class="div3-2-3-1">
+                <div class="div3same"></div>
+                <div class="fa-solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-2same">
+                <span class="span">₫</span>
+                <strong class="strong">90000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-2-4 similar" data="/html/img/chuotmt.jpg">
+            <div class="id" data="4">
+              <div class="div3-2-4-1">
+                <div class="div3same"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-2same">
+                <span class="span">₫</span>
+                <strong class="strong">300000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-2-5 similar" data="/html/img/duongtoc.jpg">
+            <div class="id" data="5">
+              <div class="div3-2-5-1">
+                <div class="div3same"></div>
+                <div class="fa-solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-2same">
+                <span class="span">₫</span>
+                <strong class="strong">1300000</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div3-3">
+          <div class="div3-3-1 similar" data="/html/img/bangquan.jpg">
+            <div class="id" data="6">
+              <div class="div3-3-1-1">
+                <div class="div3same"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-3same">
+                <span class="span">₫</span>
+                <strong class="strong">400000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-3-2 similar" data="/html/img/vay.jpg">
+            <div class="id" data="7">
+              <div class="div3-3-2-1">
+                <div class="div3-3-2-1-1"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-3same">
+                <span class="span">₫</span>
+                <strong class="strong">100000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-3-3 similar" data="/html/img/banphim.jpg">
+            <div class="id" data="8">
+              <div class="div3-3-3-1">
+                <div class="div3same"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-3same">
+                <span class="span">₫</span>
+                <strong class="strong">1800000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-3-4 similar" data="/html/img/quanau.jpg">
+            <div class="id" data="9">
+              <div class="div3-3-4-1">
+                <div class="div3same"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-3same">
+                <span class="span">₫</span>
+                <strong class="strong">200000</strong>
+              </div>
+            </div>
+          </div>
+          <div class="div3-3-5 similar" data="/html/img/maymatxa.jpg">
+            <div class="id" data="10">
+              <div class="div3-3-5-1">
+                <div class="div3same"></div>
+                <div class="div3-3-5-1-1"></div>
+                <div class="fa solid fa-cart-plus"></div>
+              </div>
+              <div class="div3-3same">
+                <span class="span">₫</span>
+                <strong class="strong">2500000</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="divpr4">
+      <div class="div4-1"><span>GỢI Ý HÔM NAY</span></div>
+      <div class="divpr4-child">
+        <div data="11" class="div4-2 same">
+          <div class="div-fix">
+            <img class="div4-im1" src="/html/img/quanao.webp" alt="Quần Áo" />
+          </div>
+          <div class="div4-2-1">
+            <div class="div4same1">Quần Áo Phông Đẹp</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">129.000/1cái</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="1" class="count"></span
+                ><span>cái</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="12" class="div4-3 same">
+          <div class="div-fix">
+            <img src="/html/img/doanvat.jpg" alt="Đồ Ăn" class="div4-im1" />
+          </div>
+          <div class="div4-3-1">
+            <div class="div4same1">Đồ Ăn Vặt Ngon</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">100.000/1sét</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="2" class="count"></span
+                ><span>Sét</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="13" class="div4-4 same">
+          <div class="div-fix">
+            <img
+              src="/html/img/hatngucoc.jpg"
+              alt="Hạt Ngũ Cốc"
+              class="div4-im1"
+            />
+          </div>
+          <div class="div4-4-1">
+            <div class="div4same1">Hạt Ngũ Cốc Dinh Dưỡng</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">79.000/0.5kg</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <sapn>Đã bán:</sapn><span data="3" class="count"></span
+                ><span>hộp</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divpr4-child">
+        <div data="14" class="div4-5 same">
+          <div class="div-fix">
+            <img src="/html/img/jordanlv.jpg" alt="Jordan" class="div4-im1" />
+          </div>
+          <div class="div4-5-1">
+            <div class="div4same1">Giày Jordan LV</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">1.179.000/1đôi</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="4" class="count"></span
+                ><span>đôi</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="15" class="div4-6 same">
+          <div class="div-fix">
+            <img src="/html/img/aobbr.jpg" alt="Áo BBR" class="div4-im1" />
+          </div>
+          <div class="div4-6-1">
+            <div class="div4same1">Áo BURBERRY</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">379.000/1cái</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="5" class="count"></span
+                ><span>cái</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="16" class="div4-7 same">
+          <div class="div-fix">
+            <img
+              src="/html/img/duigarongbien.jpg"
+              alt="Đồ Ăn Vặt"
+              class="div4-im1"
+            />
+          </div>
+          <div class="div4-7-1">
+            <div class="div4same1">Đùi Gà Rong Biển</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">25.000/0.5kg</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="6" class="count"></span
+                ><span>bịch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divpr4-child">
+        <div data="17" class="div4-8 same">
+          <div class="div-fix">
+            <img
+              src="/html/img/aosomi.jpg"
+              alt="Áo Sơ Mi Thom"
+              class="div4-im1"
+            />
+          </div>
+          <div class="div4-8-1">
+            <div class="div4same1">Áo Sơ Mi Thom Browne</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">650.000/1chiếc</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="7" class="count"></span
+                ><span>chiếc</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="18" class="div4-9 same">
+          <div class="div-fix">
+            <img src="/html/img/aolen.jpg" alt="" class="div4-im1" />
+          </div>
+          <div class="div4-9-1">
+            <div class="div4same1">Áo Len Rách Đẹp</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">350.000/1cái</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="8" class="count"></span
+                ><span>cái</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div data="19" class="div4-10 same">
+          <div class="div-fix">
+            <img src="/html/img/gaolut.webp" alt="Gạo Lứt" class="div4-im1" />
+          </div>
+          <div class="div4-10-1">
+            <div class="div4same1">Gạo Lứt Rong Biển</div>
+            <div class="div4same2">
+              <div class="div4-2same1">
+                <span>₫</span> <span class="money">32.000/0.5kg</span>
+              </div>
+              <div class="div4-2same2 sold">
+                <span>Đã bán:</span><span data="9" class="count"></span
+                ><span>bịch</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="divlast"><a href="" class="a"></a></div> -->
+    </div>
+    <footer role="contentinfo">
+      <h1 class="h1"><b>TUTA-MUA THẢ GA</b></h1>
+      <section class="section">
+        <p class="p">
+          TUTA-Trang web mua sắm tiện lợi,an toàn đáng tin cậy!Là trang web được
+          thành lập Vào giữa tháng 6 năm 2024 do Tân Sinh Viên Học Viện ngân
+          Hàng: Đặng Quang Tú thành lập và đang tập trung xây dựng và phát
+          triển.Đến với TUTA người dùng sẽ luôn có cảm giác tiện lợi và an toàn
+          khi mua sắm!
+        </p>
+        <div class="divpr5 same">
+          <div class="div5-1">CÓ THỂ BẠN TÌM KIẾM</div>
+          <ul class="ul">
+            <li class="li">
+              <a class="a" href="">Giường xếp</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Thiết bị điện tử</a>
+              <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Đồ Ăn Vặt</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Quần Áo</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Đồ Chơi</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Sách Vở</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Mỹ Phẩm</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a class="a" href="">Trang Sức</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Xe Đạp</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Quạt Điện</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Bim Bim</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Đồ Gia Dụng</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Giày Dép</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+          </ul>
+        </div>
+        <div class="divpr6 same">
+          <ul class="ul">
+            <li class="li">
+              <a href="" class="a">Dầu Gội</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Sữa Tắm</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Hoa Quả</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Ngũ Cốc</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Hạt Dinh Dưỡng</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Đường</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Sữa Tươi</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Đồ Da Dụng</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Tủ Lạnh</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Thức Ăn Động Vật</a>
+              <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Thuốc</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Loa</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+            <li class="li">
+              <a href="" class="a">Đồ Trang Trí</a> <span>&nbsp;|&nbsp;</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <div class="divpr7">
+        <div class="div7-1">
+          <div class="div7-1-1 alike">CHĂM SÓC KHÁCH HÀNG</div>
+          <ul>
+            <li>
+              <a href=""><span>Trung Tâm Trợ Giúp</span></a>
+            </li>
+            <li>
+              <a href=""><span>Hướng Dẫn Mua Hàng</span></a>
+            </li>
+            <li>
+              <a href=""><span>Hướng Dẫn Mua Hàng</span></a>
+            </li>
+            <li>
+              <a href=""><span>Chăm Sóc Khách Hàng</span></a>
+            </li>
+            <li>
+              <a href=""><span>Trả Hàng & Hoàn Tiền</span></a>
+            </li>
+            <li>
+              <a href=""><span>Chính Sách Bảo Hành</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="div7-2">
+          <div class="div7-2-1 alike">VỀ TUTA</div>
+          <ul>
+            <li>
+              <a href=""><span>Giới Thiệu Về TUTA</span></a>
+            </li>
+            <li>
+              <a href=""><span>Điều Khoản TUTA</span></a>
+            </li>
+            <li>
+              <a href=""><span>Chính Sách Bảo Mật</span></a>
+            </li>
+            <li>
+              <a href=""><span>Tiếp Thị Liên Kết</span></a>
+            </li>
+            <li>
+              <a href=""><span>Flash Sale</span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="div7-3">
+          <div class="div7-3-1 alike">THANH TOÁN</div>
+          <ul>
+            <li>
+              <a target="_blank" rel="noopener noreferrer"
+                ><img src="/html/img/visa.png" alt="VISA"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer"
+                ><img src="/html/img/bank.jpg" alt="BANK"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer"
+                ><img src="/html/img/momo.jpg" alt="MOMO"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer"
+                ><img src="/html/img/paypal.png" alt="PAYPAL"
+              /></a>
+            </li>
+            <li>
+              <a target="_blank" rel="noopener noreferrer"
+                ><img src="/html/img/vtpay.png" alt="Viettel Pay"
+              /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="div7-4">
+          <div class="div7-4-1 alike">THEO DÕI CHÚNG TÔI</div>
+          <ul>
+            <li class="li">
+              <a
+                target="_blank"
+                href="https://www.facebook.com/profile.php?id=100040172081393"
+                ><i class="fa-brands fa-facebook"></i> Facebook</a
+              >
+            </li>
+            <li class="li">
+              <a
+                target="_blank"
+                href="https://www.instagram.com/nam071205/?hl=vi"
+                ><i class="fa-brands fa-instagram"></i> Instagam</a
+              >
+            </li>
+            <li class="li">
+              <a target="_blank" href="http://www.youtube.com/@angtu6133"
+                ><i class="fa-brands fa-youtube"></i> Youtube</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="divpr8">
+        <div class="div8-1">
+          <div class="div8-1-1">
+            © 2024 TUTA. Tất cả các quyền được bảo lưu.
+          </div>
+          <div class="div8-1-2">
+            Quốc Gia & Khu Vực: Việt Nam
+            <img src="/html/img/cờVN.jpg" alt="Cờ VN" />
+          </div>
+        </div>
+      </div>
+      <div class="divpr9">
+        <div class="div9-1">
+          <a href=""><span>Chính Sách Bảo Mật</span></a
+          ><a href=""><span>Quy Chế Hoạt Động</span></a
+          ><a href=""><span>Chính Sách Vận Chuyển</span></a
+          ><a href=""><span>Chính Sách Trả và Hoàn Tiền</span></a>
+        </div>
+        <div class="div9-2">
+          Tổng đài hỗ trợ: 0364527562 - Email:dtu161205@gmail.com
+        </div>
+        <div class="div9-3">
+          Chịu Trách Nhiệm Quản Lý: Đặng Quang Tú-26A4041675
+        </div>
+      </div>
+    </footer>
+    <script src="/js/translate.js"></script>
+    <script type="module" src="/js/Products.mjs"></script>
+    <script type="module" src="/js/shopping.mjs"></script>
+    <script src="/js/slide.js "></script>
+    <script src="/js/search-prj1.js"></script>
+    <script type="module" src="/js/Buy.js/view.js"></script>
+    <script type="module" src="/js/Buy.js/rederSold_Prj.js"></script>
+  </body>
+</html>
